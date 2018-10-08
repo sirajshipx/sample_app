@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.16'
+gem 'rails', '3.2.22'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
 gem 'sqlite3'
-gem 'rspec-rails','2.11.0'
+gem 'rspec-rails','3.8.0'
+gem 'test-unit','~> 3.0'
 end
 
 
@@ -25,7 +26,7 @@ end
 
 gem 'jquery-rails','2.0.2'
 group :test do
-	gem 'capybara','1.1.2'
+	gem 'capybara','2.2.0'
 end
 
 group :production do
