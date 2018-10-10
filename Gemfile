@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.22'
-
+gem 'bootstrap-sass', '2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
@@ -13,6 +13,8 @@ gem 'rspec-rails','3.8.0'
  # gem 'childprocess', '0.3.6'
  # gem 'spork', '0.9.2'
 end
+
+
 
 
 # Gems used only for assets and not required
