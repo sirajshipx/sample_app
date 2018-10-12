@@ -6,7 +6,7 @@ describe "User pages" do
 
  describe "signup" do
 
-    before { visit signup_path }
+    before { visit 'users/new' }
 
     let(:submit) { "Create my account" }
 
